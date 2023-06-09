@@ -1,0 +1,41 @@
+[Create React Native App](https://github.com/yilmar0309/tenpo).
+
+## First make sure to have the .env with the credentials
+* API_BASE=http://localhost:3000
+* GOOGLE_MAPS_API_KEY=
+* GOOGLE_PLACE=
+
+## Requirements
+
+[Setup Environment](https://reactnative.dev/docs/environment-setup?platform=android).
+
+
+* node >= 18.0.0
+* Android Studio
+* Xcode
+* CocoaPods
+* Ruby
+* JDK zulu11
+
+## Available Scripts
+
+Run this command to install the packages:
+
+### `yarn or npm install`
+
+Run this command to install de pods:
+
+### `npx pod-install ios`
+
+Run this command to Run Android:
+
+### `yarn android or npx react-native run-android`
+
+Run this command to Run IOS:
+
+### `yarn android or npx react-native run-ios`
+
+If you have the problem with .env run: 
+
+### `rm -rf ~/Library/Developer/Xcode/DerivedData/* && yarn cache clean && yarn --reset-cache && watchman watch-del-all`
+

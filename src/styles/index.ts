@@ -1,0 +1,1 @@
+export {colorsBase} from './colorsBase';
